@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/rewhsu/hearthstone-mvp/issues"
   },
-  "homepage": "https://github.com/rewhsu/hearthstone-mvp#readme"
+  "homepage": "https://github.com/rewhsu/hearthstone-mvp#readme",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "redux": "^3.6.0"
+  }
 }
