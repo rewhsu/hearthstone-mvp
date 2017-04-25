@@ -6,6 +6,7 @@ var port = '8008';
 var app = express();
 
 app.use('/', routes);
+app.use(express.static(__dirname + '/../public'));
 
 app.listen(port, function() {
   console.log(`Listening to port ${port}`);
