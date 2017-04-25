@@ -1,0 +1,19 @@
+{
+  "name": "hearthstone-mvp",
+  "version": "1.0.0",
+  "description": "Full stack demo using Hearthstone's API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rewhsu/hearthstone-mvp.git"
+  },
+  "author": "Andrew Hsu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rewhsu/hearthstone-mvp/issues"
+  },
+  "homepage": "https://github.com/rewhsu/hearthstone-mvp#readme"
+}
