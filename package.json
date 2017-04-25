@@ -2,8 +2,23 @@
   "name": "hearthstone-mvp",
   "version": "1.0.0",
   "description": "Full stack demo using Hearthstone's API",
-  "main": "index.js",
+  "main": "server/server.js",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.15.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "redux": "^3.6.0",
+    "webpack": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
   "scripts": {
+    "start": "nodemon server/server.js",
     "test": "mocha test"
   },
   "repository": {
@@ -15,11 +30,5 @@
   "bugs": {
     "url": "https://github.com/rewhsu/hearthstone-mvp/issues"
   },
-  "homepage": "https://github.com/rewhsu/hearthstone-mvp#readme",
-  "dependencies": {
-    "express": "^4.15.2",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "redux": "^3.6.0"
-  }
+  "homepage": "https://github.com/rewhsu/hearthstone-mvp#readme"
 }

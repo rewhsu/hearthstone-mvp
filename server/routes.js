@@ -2,10 +2,8 @@ var express = require('express');
 var path = require('path');
 var router = express.Router();
 
-router.use(express.static(__dirname + '/public'));
-
 router.get('/', function(req, res) {
-  res.send('index here');
+  res.sendFile(path.resolve(__dirname, '../public/index.html'));
 })
 
 module.exports = router;
