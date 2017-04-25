@@ -22,3 +22,6 @@ Create a Hearthstone Deck Iterator Assistant
 
 # Extra Features
 - Detailed stats
+
+# Working Details
+![image](https://cloud.githubusercontent.com/assets/12904628/25383598/b025d29c-2971-11e7-98fb-63e94c6a32e5.png)
