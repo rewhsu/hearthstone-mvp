@@ -8,7 +8,7 @@ var BUILD_DIR = path.join(__dirname, '/public/bundles');
 console.log(APP_DIR, BUILD_DIR);
 
 var config = {
-  entry: APP_DIR + '/index.js',
+  entry: APP_DIR + '/main.js',
   output: {
     path: BUILD_DIR,
     filename: 'bundle.js'
