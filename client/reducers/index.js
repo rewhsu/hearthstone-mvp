@@ -18,8 +18,18 @@ const card = function(state = {}, action) {
   }
 }
 
+const selectedCard = function(state = {}, action) {
+  switch (action.type) {
+    case 'CARD_SELECT':
+      return action.card;
+    default:
+      return state
+  }
+}
+
 const myApp = combineReducers({
   cards,
+  selectedCard,
 })
 
 export default myApp;

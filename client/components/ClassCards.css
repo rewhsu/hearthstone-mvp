@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+}
+
+.list {
+  margin-top: 60px;
+  width: 200px;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.image {
+  width: 400;
+}

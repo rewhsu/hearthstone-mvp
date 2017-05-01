@@ -35,6 +35,7 @@ var config = {
           localIdentName: '[name]__[local]___[hash:base64:5]'
         },
       },
+      { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192' },
     ]
   }
 }

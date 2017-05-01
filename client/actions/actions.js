@@ -4,3 +4,10 @@ export const cardsUpdate = (cards) => {
     cards,
   }
 }
+
+export const cardSelect = (card) => {
+  return {
+    type: 'CARD_SELECT',
+    card,
+  }
+}
