@@ -10,6 +10,7 @@ var mapStateToProps = function(state) {
   return {
     classCards: data,
     selectedCard: state.selectedCard,
+    deckStats: state.deckStats,
   }
 }
 

@@ -11,3 +11,11 @@ export const cardSelect = (card) => {
     card,
   }
 }
+
+export const dStatsUpdate = (charClass, count) => {
+  return {
+    type: 'DSTATS_UPDATE',
+    charClass,
+    count,
+  }
+}
